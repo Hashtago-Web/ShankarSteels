@@ -62,11 +62,12 @@ function DynamicParagraph({ text }) {
 function ProductsSection() {
   return (
     <>
-      <section className="px-4 sm:px-7 md:px-12 lg:px-20 xl:px-26 py-2 sm:py-10 md:py-14 lg:py-20 bg-white -z-10">
+      <section className="px-4 sm:px-7 md:px-12  lg:px-20 xl:px-26 py-2 sm:py-10 md:py-14 lg:py-20 bg-white -z-10">
         {/* Section Title */}
         <h2 className="text-2xl md:text-4xl lg:text-5xl text-center mb-1 sm:mb-3 md:mb-6">
           Product <span className="font-bold">& services</span>
         </h2>
+        
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
