@@ -3,7 +3,7 @@ function About() {
     return (
         <div className="flex flex-col items-center min-h-screen ">
             <div
-                className=" px-3 md:px-6 lg:px-10 md:pt-12 py-6 w-full bg-cover bg-center bg-no-repeat
+                className=" px-3 md:px-6 lg:px-10 xl:px-30 md:pt-12 py-6 w-full bg-cover bg-center bg-no-repeat
           flex flex-col items-center md:items-start justify-center gap-2 font-poppins h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] "
                 style={{ backgroundImage: "url('/about_hero_image.png')" }}
             >
