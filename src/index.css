@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-xxs: 26.875rem; /* 430px ÷ 16 */
+  --breakpoint-xs: 30rem;    /* 480px ÷ 16 */
+  --breakpoint-xss: 34.375rem;    /* 550px ÷ 16 */
+  --breakpoint-ss: 37.5rem;    /* 600px ÷ 16 */
+  --breakpoint-smb: 43.75rem;    /* 700px ÷ 16 */
+  --breakpoint-mbb: 49.625rem;    /* 794px ÷ 16 */
+  --breakpoint-mbB: 55.625rem;    /* 890px ÷ 16 */
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -64,8 +64,7 @@ export default function Footer() {
               <p className="font-medium">Contact us</p>
               <p><a href="tel:+9112345678" className="hover:text-gray-300">+91 1234 5678</a></p>
               <p><a href="tel:+9112348956" className="hover:text-gray-300">+91 1234 8956</a></p>
-              <p className="flex items-center justify-center xs:justify-start gap-2">
-                <FaEnvelope aria-hidden="true" />
+              <p className="">
                 <a
                   href="mailto:vaishnodevisteel@gmail.com"
                   className="hover:text-gray-300"
@@ -140,7 +139,7 @@ export default function Footer() {
             {/* Right Column */}
             <div className="flex-1 flex flex-col items-center  w-1/2 md:flex-row space-y-8 ">
               {/* Quick Links */}
-              <div class="w-full flex-col items-center">
+              <div className="w-full flex-col items-center">
                 <h3 className="font-semibold text-base mb-4">Quick Links</h3>
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base">
                   <li><a href="#" className="hover:text-gray-300">Home</a></li>
@@ -152,7 +151,7 @@ export default function Footer() {
               </div>
 
               {/* Products */}
-              <div class="w-full flex-col items-center">
+              <div className="w-full flex-col items-center">
                 <h3 className="font-semibold text-base mb-4">Products</h3>
                 <ul className="space-y-2 text-xs sm:text-sm md:text-base">
                   <li><a href="#" className="hover:text-gray-300">Crash Guard</a></li>

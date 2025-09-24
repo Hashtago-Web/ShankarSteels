@@ -5,14 +5,14 @@ export default function Contact() {
     <div className="font-sans ">
       {/* Hero Section */}
       <div
-        className=" -z-1 h-[45vh] sm:[h-65vh] xl:px-22 sm:h-155 bg-cover bg-center flex flex-col justify-end text-white "
+        className=" -z-1 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:px-22 bg-cover bg-center flex flex-col justify-end text-white "
         style={{ backgroundImage: "url('contact_image.png')" }}
       >
-        <div className="flex flex-col md:text-left md:ml-10 text-center gap-2 mb-30 sm:mb-60 md:mb-20">
-          <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-wide">
+        <div className="flex flex-col md:text-left md:ml-10 text-center gap-2 mb-30 sm:mb-30 md:mb-20 animate-[slideRight_1.4s_ease-in-out]">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold">
             Contact Us
           </h2>
-          <p className="text-xl  sm:text-2xl lg:text-3xl">CONNECT WITH US</p>
+          <p className="text-md sm:text-xl md:text-2x tracking-widest">CONNECT WITH US</p>
         </div>
       </div>
 
